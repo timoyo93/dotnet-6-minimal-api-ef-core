@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C274C574-0D5C-4704-9D54-98562A1B1075}"
+	ProjectSection(SolutionItems) = preProject
+		src\Dockerfile = src\Dockerfile
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore", "src\PizzaStore.csproj", "{5D069AFB-0477-45A1-A4DE-1D02CC0221A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E45CACCC-1CBD-4250-B078-D6A314C18964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45CACCC-1CBD-4250-B078-D6A314C18964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45CACCC-1CBD-4250-B078-D6A314C18964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45CACCC-1CBD-4250-B078-D6A314C18964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D069AFB-0477-45A1-A4DE-1D02CC0221A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D069AFB-0477-45A1-A4DE-1D02CC0221A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D069AFB-0477-45A1-A4DE-1D02CC0221A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D069AFB-0477-45A1-A4DE-1D02CC0221A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E45CACCC-1CBD-4250-B078-D6A314C18964} = {C274C574-0D5C-4704-9D54-98562A1B1075}
+		{5D069AFB-0477-45A1-A4DE-1D02CC0221A8} = {C274C574-0D5C-4704-9D54-98562A1B1075}
+	EndGlobalSection
+EndGlobal
